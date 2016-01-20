@@ -1,12 +1,13 @@
-package first_iteration.if_solution;
+package second_iteration.map_solution;
 
 import org.junit.Test;
 
-import static first_iteration.if_solution.RockPaperScissorsSolver.*;
+import static second_iteration.map_solution.RockPaperScissorsSolver.*;
+import static second_iteration.map_solution.Gesture.*;
 import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.assertThat;
 
-public class RockPaperScissorSolverShould {
+public class RockPaperScissorsSolverShould {
 
 	@Test
 	public void tie_when_both_gestures_are_equals() {
