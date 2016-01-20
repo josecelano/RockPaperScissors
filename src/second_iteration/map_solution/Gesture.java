@@ -1,4 +1,4 @@
-package map_solution;
+package second_iteration.map_solution;
 
 public enum Gesture {
 	ROCK, PAPER, SCISSORS

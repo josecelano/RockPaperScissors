@@ -1,9 +1,9 @@
-package map_solution;
+package second_iteration.map_solution;
 
 import java.util.HashMap;
 import java.util.Map;
 
-import static map_solution.Gesture.*;
+import static second_iteration.map_solution.Gesture.*;
 
 public class RockPaperScissorsSolver {
 

@@ -1,9 +1,8 @@
-package map_solution;
+package first_iteration.if_solution;
 
 import org.junit.Test;
 
-import static map_solution.RockPaperScissorsSolver.*;
-import static map_solution.Gesture.*;
+import static first_iteration.if_solution.RockPaperScissorsSolver.*;
 import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.assertThat;
 

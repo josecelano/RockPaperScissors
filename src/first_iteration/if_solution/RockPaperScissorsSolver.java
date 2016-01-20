@@ -1,4 +1,4 @@
-package if_solution;
+package first_iteration.if_solution;
 
 public class RockPaperScissorsSolver {
 
