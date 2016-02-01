@@ -1,0 +1,23 @@
+{
+    "name": "SoftwareCraftsmanshipGC/RockPaperScissors-CodingDojo",
+    "description": "Kata. The objective is to write a a solution for the game with 3 different iterations.",
+    "require-dev": {
+        "phpunit/phpunit": "~4.1",
+        "mockery/mockery": "0.9.0"
+    },
+    "authors": [
+        {
+            "name": "Jose Celano",
+            "email": "josecelano@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "config": {
+        "bin-dir": "bin"
+    },
+    "autoload": {
+        "psr-0": {
+            "": ["src/"]
+        }
+    }
+}
