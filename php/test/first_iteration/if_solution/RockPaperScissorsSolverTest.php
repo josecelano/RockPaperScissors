@@ -12,19 +12,18 @@ class RockPaperScissorsTest extends PHPUnit_Framework_TestCase
     tie_when_both_gestures_are_equals()
     {
         $this->assertEquals(
-            RockPaperScissorsSolver::solve(RockPaperScissorsSolver::ROCK, RockPaperScissorsSolver::ROCK),
-            "Tie."
+            "Tie.",
+            RockPaperScissorsSolver::solve(RockPaperScissorsSolver::ROCK, RockPaperScissorsSolver::ROCK)
         );
     }
-
 
     /** @test */
     public function
     say_rock_loses_against_paper()
     {
         $this->assertEquals(
-            RockPaperScissorsSolver::solve(RockPaperScissorsSolver::ROCK, RockPaperScissorsSolver::PAPER),
-            "Rock loses against paper."
+            "Rock loses against paper.",
+            RockPaperScissorsSolver::solve(RockPaperScissorsSolver::ROCK, RockPaperScissorsSolver::PAPER)
         );
     }
 
@@ -33,8 +32,8 @@ class RockPaperScissorsTest extends PHPUnit_Framework_TestCase
     say_rock_wins_against_scissors()
     {
         $this->assertEquals(
-            RockPaperScissorsSolver::solve(RockPaperScissorsSolver::ROCK, RockPaperScissorsSolver::SCISSORS),
-            "Rock wins against scissors."
+            "Rock wins against scissors.",
+            RockPaperScissorsSolver::solve(RockPaperScissorsSolver::ROCK, RockPaperScissorsSolver::SCISSORS)
         );
     }
 
@@ -43,8 +42,8 @@ class RockPaperScissorsTest extends PHPUnit_Framework_TestCase
     say_paper_wins_against_rock()
     {
         $this->assertEquals(
-            RockPaperScissorsSolver::solve(RockPaperScissorsSolver::PAPER, RockPaperScissorsSolver::ROCK),
-            "Paper wins against rock."
+            "Paper wins against rock.",
+            RockPaperScissorsSolver::solve(RockPaperScissorsSolver::PAPER, RockPaperScissorsSolver::ROCK)
         );
     }
 
@@ -53,8 +52,8 @@ class RockPaperScissorsTest extends PHPUnit_Framework_TestCase
     say_paper_loses_against_scissors()
     {
         $this->assertEquals(
-            RockPaperScissorsSolver::solve(RockPaperScissorsSolver::PAPER, RockPaperScissorsSolver::SCISSORS),
-                "Paper loses against scissors."
+            "Paper loses against scissors.",
+            RockPaperScissorsSolver::solve(RockPaperScissorsSolver::PAPER, RockPaperScissorsSolver::SCISSORS)
         );
     }
 
@@ -63,8 +62,8 @@ class RockPaperScissorsTest extends PHPUnit_Framework_TestCase
     say_scissors_lose_against_rock()
     {
         $this->assertEquals(
-            RockPaperScissorsSolver::solve(RockPaperScissorsSolver::SCISSORS, RockPaperScissorsSolver::ROCK),
-            "Scissors lose against rock."
+            "Scissors lose against rock.",
+            RockPaperScissorsSolver::solve(RockPaperScissorsSolver::SCISSORS, RockPaperScissorsSolver::ROCK)
         );
     }
 
@@ -73,8 +72,8 @@ class RockPaperScissorsTest extends PHPUnit_Framework_TestCase
     say_scissors_win_against_paper()
     {
         $this->assertEquals(
-            RockPaperScissorsSolver::solve(RockPaperScissorsSolver::SCISSORS, RockPaperScissorsSolver::PAPER),
-            "Scissors win against paper."
+            "Scissors win against paper.",
+            RockPaperScissorsSolver::solve(RockPaperScissorsSolver::SCISSORS, RockPaperScissorsSolver::PAPER)
         );
     }
 }
