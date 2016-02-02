@@ -53,7 +53,7 @@ class RockPaperScissorsSolver
      */
     private static function solvePaperAgainstPaper()
     {
-        return "";
+        return "Tie.";
     }
 
     /**
@@ -85,7 +85,7 @@ class RockPaperScissorsSolver
      */
     private static function solveScissorsAgainstScissors()
     {
-        return "";
+        return "Tie.";
     }
 
     /**

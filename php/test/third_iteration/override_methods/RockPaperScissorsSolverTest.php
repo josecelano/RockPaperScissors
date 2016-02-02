@@ -16,6 +16,14 @@ class RockPaperScissorsTest extends PHPUnit_Framework_TestCase
             "Tie.",
             RockPaperScissorsSolver::solve(Gesture::ROCK(), Gesture::ROCK())
         );
+        $this->assertEquals(
+            "Tie.",
+            RockPaperScissorsSolver::solve(Gesture::PAPER(), Gesture::PAPER())
+        );
+        $this->assertEquals(
+            "Tie.",
+            RockPaperScissorsSolver::solve(Gesture::SCISSORS(), Gesture::SCISSORS())
+        );
     }
 
     /** @test */
